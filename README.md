@@ -6,7 +6,7 @@
 - **AGBOTON Ariane** – Web Developper – https://github.com/Dona-ima
 - **AHOGNISSE Ariel** – Web et Mobile developper – https://github.com/arielcarmen
 - **EDAYE DOKOUI Béni-Christ** – web Developper –
-- **HOUEDANOU Gildas** – Camputer Scientist –  
+- **HOUEDANOU Gildas** – Computer Scientist –  
 
 ---
 
