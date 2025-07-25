@@ -12,7 +12,7 @@
 
 ## 📄 Executive Summary
 
-**Lightning Vaccinal Book** eIt is a digital vaccination record application that allows patients to store their vaccination proofs on a secure platform. It helps health centers certify vaccinations and enables inspectors to verify them quickly using QR codes.
+**Lightning Vaccinal Book** : It is a digital vaccination record application that allows patients to store their vaccination proofs on a secure platform. It helps health centers certify vaccinations and enables inspectors to verify them quickly using QR codes.
 
 Our solution combats fake vaccination booklets, facilitates vaccination tracking, and strengthens health security — especially in sensitive contexts such as travel or health inspections.
 
