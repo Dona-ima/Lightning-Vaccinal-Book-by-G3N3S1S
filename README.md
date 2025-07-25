@@ -1,104 +1,103 @@
 # ⚡ Lightning Vaccinal Book
 
-## 👥 Équipe G3N3S1S
+## 👥 G3N3S1S Team
 
 - **AGBALE Bellevie** – IU/UX Designer 
-- **AGBOTON Ariane** – Développeur Backend – https://github.com/Dona-ima
-- **AHOGNISSE Ariel** – Développeur Backend et mobile – https://github.com/arielcarmen
-- **EDAYE DOKOUI Béni-Christ** – Développeur Frontend –
-- **HOUEDANOU Gildas** – Ingénieur Informatique  
+- **AGBOTON Ariane** – Web Developper – https://github.com/Dona-ima
+- **AHOGNISSE Ariel** – Web et Mobile developper – https://github.com/arielcarmen
+- **EDAYE DOKOUI Béni-Christ** – web Developper –
+- **HOUEDANOU Gildas** – Camputer Scientist –  
 
 ---
 
-## 📄 Résumé Exécutif
+## 📄 Executive Summary
 
-**Lightning Vaccinal Book** est une application de carnet de vaccination numérique permettant aux patients de conserver leurs preuves de vaccination sur une plateforme sécurisée. Elle aide les centres de santé à certifier les vaccinations, et les contrôleurs à les vérifier rapidement à l’aide de QR codes.
+**Lightning Vaccinal Book** eIt is a digital vaccination record application that allows patients to store their vaccination proofs on a secure platform. It helps health centers certify vaccinations and enables inspectors to verify them quickly using QR codes.
 
-Notre solution lutte contre les faux carnets, facilite le suivi vaccinal, et renforce la sécurité sanitaire, notamment dans des contextes sensibles comme les déplacements ou les contrôles de santé.
-
----
-
-## ❗ Problématique Identifiée
-
-### 🔍 Le problème
-
-Dans de nombreux pays, les carnets de vaccination sont encore **physiques, fragiles et facilement falsifiables**. Cela nuit à la fiabilité des données, complique les contrôles, et représente un frein à la sécurité sanitaire (ex: COVID-19, fièvre jaune).
-
-> En Afrique de l’Ouest, **1 personne sur 3** ne peut pas présenter un carnet complet ou lisible.
-
-### 👥 Public cible
-
-Notre solution s’adresse à trois types d’utilisateurs :
-- **Les patients** : pour conserver leurs certificats sans risque de perte ou de dégradation.
-- **Les centres de santé** : pour délivrer des preuves de vaccination **authentiques et infalsifiables**.
-- **Les contrôleurs** (hôpitaux, frontières, écoles) : pour vérifier rapidement les certificats.
-
-Les patients ont besoin d’un moyen fiable de conserver leur carnet de vaccination, sans risque de perte ou de dégradation. Les centres de santé, de leur côté, doivent pouvoir délivrer des preuves authentiques et infalsifiables des vaccinations administrées. Enfin, les contrôleurs (aux frontières, dans les écoles ou dans les hôpitaux) ont besoin d’un outil simple et rapide pour vérifier l’authenticité des carnets de vaccination.
-Aujourd’hui, la perte ou la dégradation des carnets vaccinaux est fréquente, notamment en Afrique de l’Ouest où environ une personne sur trois ne peut présenter un carnet complet ou en bon état. Ce manque de traçabilité entraîne des difficultés d’accès à certains services de santé, d’éducation ou de mobilité. À cela s’ajoute la prolifération de faux certificats, qui constitue une menace grave pour la sécurité sanitaire, surtout en période d’épidémies comme le COVID-19 ou la fièvre jaune.
-Il est donc essentiel de proposer une solution numérique, portable et sécurisée, qui permette à chaque individu de disposer d’un carnet vaccinal fiable et facilement vérifiable. C’est dans ce contexte que notre application apporte une réponse concrète, adaptée au terrain, en renforçant la confiance entre patients, centres et autorités.
-
+Our solution combats fake vaccination booklets, facilitates vaccination tracking, and strengthens health security — especially in sensitive contexts such as travel or health inspections.
 
 ---
 
-## ✅ Solution Proposée
+## ❗ Identified Problem
 
-Le projet **Carnet Vaccinal Lightning** a pour objectif de développer un système numérique sécurisé permettant d’enregistrer, conserver et vérifier les preuves de vaccination. En s’appuyant sur le réseau Lightning et la cryptographie, ce système assure l’authenticité des certificats vaccinaux sans recourir à une infrastructure centralisée ni à la gestion classique de comptes utilisateur.
-Chaque individu dispose d’une identité sécurisée basée sur une clé publique Lightning, garantissant la confidentialité et la sécurité des données personnelles. Le projet vise à fournir une solution légère, rapide et adaptée aux contextes où la connectivité internet est limitée, notamment dans des régions comme le Bénin.
+### 🔍 problem
 
+In many countries, vaccination booklets are still **physical, fragile, and easily falsifiable**. This undermines data reliability, complicates verification processes, and poses a barrier to health security (e.g., COVID-19, yellow fever).
+
+> In West Africa, 1 in 3 people is unable to present a complete or legible vaccination record.
+
+### 👥 PTarget Audience
+
+Our solution is designed for three types of users :
+- **Patients** : to store their certificates without the risk of loss or damage.
+- **Health Centers** : to issue **authentic and tamper-proof** vaccination proofs
+- **Controllers** (hospitals, borders, schools): to quickly verify certificates.
+
+Patients need a reliable way to keep their vaccination records without risk of loss or damage. Health centers, on their part, must be able to issue authentic and tamper-proof proof of administered vaccinations. Finally, inspectors (at borders, schools, or hospitals) require a simple and fast tool to verify the authenticity of vaccination records.
+
+Today, the loss or deterioration of vaccination records is common, especially in West Africa, where approximately one in three people cannot present a complete or well-preserved booklet. This lack of traceability leads to difficulties accessing certain health, education, or mobility services. Additionally, the proliferation of fake certificates poses a serious threat to health security, particularly during epidemics such as COVID-19 or yellow fever.
+
+It is therefore essential to provide a digital, portable, and secure solution that allows every individual to have a reliable and easily verifiable vaccination record. It is in this context that our application offers a concrete response, adapted to local realities, by strengthening trust between patients, health centers, and authorities.
 
 ---
 
-## 🧩 Fonctionnalités clés
+## ✅ Our Solution
 
-### 🔐 Preuve de vaccination sécurisée et portable
-Après validation de sa vaccination, le patient reçoit une certification qui est ajoutée à son carnet vaccinal numérique. Il peut ensuite générer un QR code à partir de son carnet pour présenter une preuve de vaccination infalsifiable et facilement vérifiable.
+**The Lightning Vaccinal Book** project aims to develop a secure digital system for recording, storing, and verifying vaccination proofs. By leveraging the Lightning Network and cryptography, this system ensures the authenticity of vaccination certificates without relying on centralized infrastructure or traditional user account management.
 
+Each individual has a secure identity based on a Lightning public key, guaranteeing confidentiality and the security of personal data. The project seeks to provide a lightweight, fast solution adapted to contexts with limited internet connectivity, especially in regions like Benin.
 
-### 📶 Vérification rapide et hors ligne
-Les contrôleurs peuvent vérifier l’authenticité d’un certificat sans connexion internet, simplement en scannant le QR code. La validité est confirmée localement à partir de la signature cryptographique.
+---
 
+## 🧩 Key Features
 
-### 📅 Prise de rendez-vous simple et sécurisée
+### 🔐 Secure and Portable Vaccination Proof
+After validation of their vaccination, the patient receives a certification that is added to their digital vaccination record. They can then generate a QR code from their record to present a tamper-proof and easily verifiable proof of vaccination.
+
+### 📶 Fast and Offline Verification
+Inspectors can verify the authenticity of a certificate without an internet connection, simply by scanning the QR code. The validity is confirmed locally using the cryptographic signature.
+
+### 📅 Simple and Secure Appointment Booking
 Le patient crée un compte et soumet une demande de rendez-vous en précisant :
-- son **numéro d’identification national**
-- le **type de vaccin souhaité**
-- une **date préférée**
+- their **national identification number**
+- the **desired type of vaccine**
+- **a appointment**
 
-Le jour du rendez-vous, il confirme son identité avec son numéro d’identification national présent sur sa **carte nationale**.
+On the day of the appointment, they confirm their identity using their national identification number shown on their **national ID card**.
 
 ---
 
-## 🛠️ Mise en œuvre technique
+## 🛠️ Technical Implementation
 
-### 🏗️ Architecture générale
+### 🏗️ General Architecture
 
-#### 🧑‍💻 Côté Patient
-- Application Mobile 
-- Création de compte sur la plateforme
+#### 🧑‍💻 Patient Side
+- Mobile Application
+- Account creation on the platform
 - Fonctions :
-  - Prise de rendez-vous
-  - Consultation du carnet
-  - Génération de QR code du carnet
-- Stockage **local** (navigateur) ou image QR
+  - Appointment booking
+  - Vaccination record consultationt
+  - QR Code Generation for the Record
+- **Local storage** (browser) or QR code image
 
-#### 🏥 Côté Centre de santé
-- Interface web sécurisée
+#### 🏥 Health Center Side
+- Secure Web Interface
 - Fonctions :
-  - Réception des demandes de rendez-vous
-  - Validation / Rejet / Modification
-  - Enregistrement de vaccinations
-  - Signature des preuves avec **clé privée**
+  - Reception of appointment requests
+  - Approval / Rejection / Modification
+  - Vaccination Recording
+  - Signing proofs with a **private key**
 
-#### 🕵️ Côté Contrôleur
-- Application mobile ou web
-- Scan QR code patient
+#### 🕵️ Controller Side
+- Mobile ou Web Application
+- Scan Patient QR Code
 - Vérification :
-  - Signature cryptographique
-  - Clé publique présente dans la liste blanche
-- **Fonctionne hors ligne**
+  - Cryptographic Signature
+  - Public key present in the whitelist
+- **Works offline**
 
-#### 🔗 Échange de données
-- Messages sécurisés (JSON) contenant :
+#### 🔗 Data exchange
+- Secure messages (JSON) containing :
   ```json
   {
     "type": "vaccine_request",
@@ -113,22 +112,22 @@ Le jour du rendez-vous, il confirme son identité avec son numéro d’identific
 
 ## 🧪 Technologies utilisées
 
-| Composant         | Technologie              |
-|-------------------|--------------------------|
-| **Frontend**      | HTML, CSS, JavaScript    |
-| **Backend**       | FastAPI                  |
-| **Base de données** | Firestore             |
-| **Design UI/UX**  | Figma                    |
-| **APIs/Services** | Lightning_pb2_grpc       |
+|      Composant      |      Technology         |
+|---------------------|--------------------------|
+|    **Frontend**     | HTML, CSS, JavaScript    |
+|    **Backend**      | FastAPI                  |
+|    **DataBase**     | Firestore                |
+|  **UI/UX Design**   | Figma                    |
+|  **APIs/Services**  | Lightning_pb2_grpc       |
 
 ---
 
 ## ⚙️ Ressoures
 
-- Serveur backend : https://github.com/arielcarmen/python-lnd-connect
-- Serveur frontend : 
-- Application mobile : https://github.com/arielcarmen/vaccination_book_app
-- Maquettes : https://www.figma.com/design/dGGxc8iEpWnEztIxOaZSHq/Book-Vaccinal-Lightning?node-id=85-3&p=f&t=GL4wf0vt7T49OIJp-0
+- Backend Server : https://github.com/arielcarmen/python-lnd-connect
+- Frontend Server : 
+- Mobile Apllication : https://github.com/arielcarmen/vaccination_book_app
+- Mockups : https://www.figma.com/design/dGGxc8iEpWnEztIxOaZSHq/Book-Vaccinal-Lightning?node-id=85-3&p=f&t=GL4wf0vt7T49OIJp-0
 - Application (generated) : https://drive.google.com/drive/folders/15nFxgE5UjH8U1zUEkUnznjrC2Ngqa1aq (Essayez v1 ou v2 en fonction de l'architecture de votre téléphone)
 
 
@@ -140,13 +139,13 @@ MIT
 
 ---
 
-## 🤝 Contribuer
+## 🤝 Contribute
 
-Les contributions sont les bienvenues ! Si vous avez des suggestions, ouvrez une _issue_ ou soumettez une _pull request_.
+Contributions are welcome! If you have suggestions, please open an issue or submit a pull request.
 
 ---
 
 ## 📬 Contact
 
-Pour toute question, contactez un membre de l’équipe **G3N3S1S**.
+For any questions, please contact a team member **G3N3S1S**.
 
